@@ -8,7 +8,7 @@ provisioner:
   name: chef_zero
   encrypted_data_bag_secret_key_path: 'secrets/fakey-mcfakerton'
   data_bags_path: './data_bags'
-  product_name: chefdk
+  product_name: chef-workstation
 
 platforms:
   - name: ubuntu-18.04
